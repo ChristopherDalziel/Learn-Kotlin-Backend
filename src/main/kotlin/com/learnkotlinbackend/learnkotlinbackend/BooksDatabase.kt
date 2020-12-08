@@ -10,6 +10,7 @@ class BooksDatabase {
     // All of our books will be created here
     private val books = mutableListOf<Book>()
 
+    // @PostConstruct annotation, it gets executed after the spring bean is initialized. (We can have only one?)
     @PostConstruct
     private fun init() {
         // Provide data to our above database
