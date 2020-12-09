@@ -9,8 +9,8 @@ import java.lang.RuntimeException
 
 @ResponseStatus(value = HttpStatus.CONFLICT, reason = "Duplicate item.")
 class DuplicateItemException: RuntimeException() {
-    @RequestMapping("", method = arrayOf(RequestMethod.POST))
-    fun addBook(@RequestBody book: Book) =
-        if (database.addBook(book)) book
-    else throw DuplicateItemException()
+//    @RequestMapping("", method = arrayOf(RequestMethod.POST))
+//    fun addBook(@RequestBody book: Book) =
+//        if (database.addBook(book)) book
+//    else throw DuplicateItemException()
 }
