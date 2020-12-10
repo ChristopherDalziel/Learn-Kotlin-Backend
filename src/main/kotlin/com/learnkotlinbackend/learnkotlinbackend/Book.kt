@@ -1,6 +1,11 @@
 package com.learnkotlinbackend.learnkotlinbackend
 
+import org.springframework.data.mongodb.core.mapping.Document
+import org.springframework.stereotype.Repository
+
 // A simple Book class that will define each book
+@Repository
+@Document(collection = "Books")
 class Book() {
     lateinit var ISBN: String
     lateinit var title: String
