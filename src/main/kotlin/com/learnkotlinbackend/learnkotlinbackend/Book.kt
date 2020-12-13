@@ -15,12 +15,12 @@ class Book() {
 
     constructor(
 //        id: String,
-        ISBN: String,
+        isbn: String,
         title: String,
         author: String,
         coverUrl: String? = null) : this() {
 //            this.id = id
-            this.isbn = ISBN
+            this.isbn = isbn
             this.title = title
             this.author = author
             this.coverUrl = coverUrl
