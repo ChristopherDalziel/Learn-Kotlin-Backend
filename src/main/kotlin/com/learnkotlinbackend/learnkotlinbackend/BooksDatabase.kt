@@ -46,7 +46,7 @@ class BooksDatabase {
 
     fun addBook(book: Book) : Boolean {
         // Check if a book with the same ISBN already exists within the database if it does.. do not add it.
-        books.firstOrNull() { it.ISBN == book.ISBN }?.let {
+        books.firstOrNull() { it.isbn == book.isbn }?.let {
             return false
         }
         books.add(book)

@@ -1,23 +1,22 @@
 [
   {
-    "ISBN": "0765326353",
+    "isbn": "0765326353",
     "title": "The Way of Kings",
     "author": "Brandon Sanderson",
     "coverUrl": "https://d.gr-assets.com/books/1448127430l/7235533.jpg",
     "isbn": "0765326353"
   },
   {
-    "ISBN": "0345391802",
+    "isbn": "0345391802",
     "title": "The Hitchhiker's Guide to the Galaxy",
     "author": "Douglas Adams",
     "coverUrl": "https://d.gr-assets.com/books/1327656754l/11.jpg",
     "isbn": "0345391802"
   },
   {
-    "ISBN": "076531178X",
+    "isbn": "076531178X",
     "title": "Mistborn: The Final Empire",
     "author": "Brandon Sanderson",
-    "coverUrl": "https://d.gr-assets.com/books/1437254833l/68428.jpg",
-    "isbn": "076531178X"
+    "coverUrl": "https://d.gr-assets.com/books/1437254833l/68428.jpg"
   }
 ]
